@@ -1,26 +1,45 @@
+import { Dispatch, SetStateAction } from "react";
+
 interface Props {
+  id: number,
   title: string,
   subtitle: string,
   categories: string[],
   tags: string[],
   image: string,
   video: string,
+  isOpen: boolean,
+  setIsOpen: Dispatch<SetStateAction<boolean>>,
+  currentProject: number | null,
+  setCurrentProject: Dispatch<SetStateAction<number | null>>
 }
 
 export default function ProjectPreview(props: Props) {
 
-  const { title, subtitle, categories, tags, image, video } = props;
+  const {
+    id,
+    title,
+    subtitle,
+    // categories,
+    tags,
+    image,
+    video,
+    isOpen,
+    setIsOpen,
+    // currentProject,
+    setCurrentProject
+  } = props;
 
   return (
     <div className="flex flex-row gap-4">
 
       <div className="w-1/4">
-        <h3>{title}</h3>
-        <h3 className="text-gray-500 pb-6">{subtitle}</h3>
-        <div className="flex flex-col gap-2 text-gray-500">
+        <h3 className="text-zinc-400">{title}</h3>
+        <h3 className="text-zinc-600 pb-6">{subtitle}</h3>
+        <div className="flex flex-col gap-2 text-zinc-500">
           {tags && tags.map((tag) => {
             return (
-              <div className="px-1 py-0.5 rounded-md border border-gray-800 w-fit uppercase ">
+              <div className="px-1 py-0.5 rounded-md border border-zinc-800 w-fit uppercase ">
                 <p className="text-xs">{tag}</p>
               </div>
             )
@@ -30,7 +49,10 @@ export default function ProjectPreview(props: Props) {
       </div>
 
 
-      <div className="w-3/4">
+      <div
+        className="w-3/4"
+        onClick={() => { setIsOpen(!isOpen); setCurrentProject(id) }}
+      >
         {image !== '' ? (
           <img
             src={image}

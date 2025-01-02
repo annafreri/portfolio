@@ -1,0 +1,93 @@
+{
+  "workExperience": [
+    {
+      "institution": "Bureau Moeilijke Dingen",
+      "positions": [
+        {
+          "title": "Front end developer intern",
+          "period": "2024-2025",
+          "description": "Working at Bureau Moeilijke Dingen, I combined frontend development using React and TypeScript with UX design principles to create digital products. Through hands-on experience with electronics, I developed a comprehensive understanding of interactive systems – from technical implementation to user experience. This role enhanced my ability to create meaningful digital solutions that bridge technology and design."
+        }
+      ]
+    },
+    {
+      "institution": "Soul Creative Agency",
+      "positions": [
+        {
+          "title": "Digital design Lead",
+          "period": "2021-2023"
+        },
+        {
+          "title": "UI&UX designer",
+          "period": "2016-2020"
+        },
+        {
+          "title": "Junior designer",
+          "period": "2014-2015"
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "What did I do there?",
+          "content": "Throughout the years, in addition to my main focus on UI & UX design, I have been actively involved in a variety of tasks and procedures such as copywriting, naming, graphic design, packaging, storytelling, visual identity design, and project management. This sparked my curiosity and helped me develop a 360-degree understanding of what interaction and communication mean, providing me with a direct overview from the ideation stage to production."
+        },
+        {
+          "title": "As a design lead",
+          "content": "Since 2021, my day-to-day tasks have included designing interfaces and user journeys for various websites and apps, as well as leading the digital team from the wireframe stage to final deployment to create exceptional products and engaging experiences."
+        }
+      ]
+    },
+    {
+      "institution": "KORRES Uni Lab",
+      "positions": [
+        {
+          "title": "Graphic Designer",
+          "period": "2013"
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "What did I do there?",
+          "content": "I was handpicked by KORRES to join an all-student team of diverse disciplines. Together, we collaborated to create a product for the KORRES skincare line. This unique opportunity allowed me to contribute my expertise in graphic & packaging design, while also learning from and collaborating with fellow students from various backgrounds."
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Supsi, CH",
+      "positions": [
+        {
+          "title": "Master of Arts in Interaction Design",
+          "period": "2023-2024"
+        }
+      ]
+    },
+    {
+      "institution": "University of West Attica, GR",
+      "positions": [
+        {
+          "title": "Bachelor of Arts in Graphic design & Visual Communication",
+          "period": "2009-2012"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "level": "Proficiency (C2)"
+    },
+    {
+      "language": "German",
+      "level": "Mittelstufe (C1)"
+    },
+    {
+      "language": "Greek",
+      "level": "Native"
+    }
+  ],
+  "aboutMe": {
+    "content": "I am currently enrolled in the Master of Interaction Design at SUPSI, CH. Over my ten years of work experience, I've been employed in a small agency where I often found myself juggling various roles and tasks simultaneously. This environment provided me with the freedom to explore different disciplines and crafts, leading me to realize that versatility is what I find truly fulfilling and ultimately rewarding. Above all, I consider myself a maker and problem solver. While tasks and procedures may vary, they all serve the same purpose: telling engaging stories and creating useful and simply great products that users can relate to and be excited about. I firmly believe that understanding the problem and possessing the problem-solving skills required to arrive at a solution are the key elements in designing exceptional experiences and products, regardless of the medium."
+  }
+}

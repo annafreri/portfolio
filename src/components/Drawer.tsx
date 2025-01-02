@@ -1,3 +1,10 @@
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+} from "@/components/ui/sheet"
+
+
 interface Project {
   id: number;
   title: string;
@@ -11,49 +18,64 @@ interface Project {
 }
 
 interface Props {
-  project: Project | undefined;
+  project: Project | undefined
+  isOpen: boolean
+  setIsOpen: (x: boolean) => void
 }
 
 export default function Drawer(props: Props) {
 
-  const { project } = props
+  const { project, isOpen, setIsOpen } = props
 
   return (
-    <div className="w-1/2 fixed right-0 top-0 h-full bg-gray-900 p-6 overflow-y-scroll">
-      <div className="pb-6">
-        <h3>{project?.title}</h3>
-        <h3 className="text-gray-500">{project?.subtitle}</h3>
-      </div>
-      <div
-        className="flex flex-col gap-4"
+    <div>
+      <Sheet
+        open={isOpen}
+        onOpenChange={() => setIsOpen(!isOpen)}
+        modal={false}
       >
-        {
-          project?.texts && project.texts.map((text) => {
-            const smallTitle = text[0]
-            const description = text[1]
-            return (
-              <div>
-                <p className="text-gray-500">{smallTitle}</p>
-                <p>{description}</p>
-              </div>
-            )
-          })
-        }
-      </div>
-      <div className="my-6">
-        {
-          project?.images && project.images.map((path) => {
-            return (
-              <img
-                src={path}
-                className="pb-2"
-              >
+        <SheetTrigger>Open</SheetTrigger>
+        <SheetContent
+          onEscapeKeyDown={() => setIsOpen(false)}
+          onPointerDownOutside={() => setIsOpen(false)}
+        >
 
-              </img>
-            )
-          })
-        }
-      </div>
+
+          <div
+            className="flex flex-col gap-5"
+          >
+            <div className="text-zinc-400">
+              <h3>{project?.title}</h3>
+            </div>
+
+            {
+              project?.texts && project.texts.map((text) => {
+                const smallTitle = text[0]
+                const description = text[1]
+                return (
+                  <div>
+                    <p className="text-zinc-600">{smallTitle}</p>
+                    <p className="text-zinc-400">{description}</p>
+                  </div>
+                )
+              })
+            }
+          </div>
+          <div className="my-6">
+            {
+              project?.images && project.images.map((path) => {
+                return (
+                  <img
+                    src={path}
+                    className="pb-2"
+                  >
+                  </img>
+                )
+              })
+            }
+          </div>
+        </SheetContent>
+      </Sheet>
     </div>
   )
 }

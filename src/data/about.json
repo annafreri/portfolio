@@ -1,0 +1,75 @@
+{
+  "work": [
+    {
+      "title": "Bureau Moeilijke Dingen",
+      "texts": [
+        {
+          "subtitle": "2024-2025",
+          "desc": "Front end developer intern"
+        },
+        {
+          "subtitle": "What did I do there?",
+          "desc": "Working at Bureau Moeilijke Dingen, I combined frontend development using React and TypeScript with UX design principles to create digital products. Through hands-on experience with electronics, I developed a comprehensive understanding of interactive systems – from technical implementation to user experience. This role enhanced my ability to create meaningful digital solutions that bridge technology and design."
+        }
+      ]
+    },
+    {
+      "title": "Soul Creative Agency",
+      "texts": [
+        {
+          "subtitle": "2021-2023",
+          "desc": "Digital design Lead"
+        },
+        {
+          "subtitle": "2016-2020",
+          "desc": "UI&UX designer"
+        },
+        {
+          "subtitle": "2014-2015",
+          "desc": "Junior designer"
+        },
+        {
+          "subtitle": "What did I do there?",
+          "desc": "Throughout the years, in addition to my main focus on UI & UX design, I have been actively involved in a variety of tasks and procedures such as copywriting, naming, graphic design, packaging, storytelling, visual identity design, and project management. This sparked my curiosity and helped me develop a 360-degree understanding of what interaction and communication mean, providing me with a direct overview from the ideation stage to production."
+        },
+        {
+          "subtitle": "As a design lead",
+          "desc": "Since 2021, my day-to-day tasks have included designing interfaces and user journeys for various websites and apps, as well as leading the digital team from the wireframe stage to final deployment to create exceptional products and engaging experiences."
+        }
+      ]
+    },
+    {
+      "title": "KORRES Uni Lab",
+      "texts": [
+        {
+          "subtitle": "2013",
+          "desc": "Graphic Designer"
+        },
+        {
+          "subtitle": "What did I do there?",
+          "desc": "I was handpicked by KORRES to join an all-student team of diverse disciplines. Together, we collaborated to create a product for the KORRES skincare line. This unique opportunity allowed me to contribute my expertise in graphic & packaging design, while also learning from and collaborating with fellow students from various backgrounds."
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Supsi, CH",
+      "texts": [
+        {
+          "subtitle": "2023-2024",
+          "desc": "Master of Arts in Interaction Design"
+        }
+      ]
+    },
+    {
+      "title": "University of West Attica, GR",
+      "texts": [
+        {
+          "subtitle": "2009-2012",
+          "desc": "Bachelor of Arts in Graphic design & Visual Communication"
+        }
+      ]
+    }
+  ]
+}
