@@ -6,12 +6,14 @@ interface Props {
 export default function AboutSection(props: Props) {
   const { title, children } = props
   return (
-    < div className="border-t-4 border-zinc-500 mt-20" >
-      {title &&
-        <h2 className="text-zinc-400 mb-11">
-          {title}
-        </h2>
-      }
+    < div className="mt-20 flex flex-row gap-6" >
+      <div className="w-1/2">
+        {title &&
+          <h2 className="text-zinc-400 mb-11 sticky top-4 border-t border-zinc-700">
+            {title}
+          </h2>
+        }
+      </div>
       {children}
     </div >
   )

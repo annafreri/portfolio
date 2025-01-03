@@ -71,5 +71,35 @@
         }
       ]
     }
+  ],
+  "aboutme": [
+    {
+      "title": "",
+      "texts": [
+        {
+          "subtitle": "",
+          "desc": "I am currently enrolled in the Master of Interaction Design at SUPSI, CH. Over my ten years of work experience, I've been employed in a small agency where I often found myself juggling various roles and tasks simultaneously. This environment provided me with the freedom to explore different disciplines and crafts, leading me to realize that versatility is what I find truly fulfilling and ultimately rewarding. Above all, I consider myself a maker and problem solver. While tasks and procedures may vary, they all serve the same purpose: telling engaging stories and creating useful and simply great products that users can relate to and be excited about. I firmly believe that understanding the problem and possessing the problem-solving skills required to arrive at a solution are the key elements in designing exceptional experiences and products, regardless of the medium."
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "title": "",
+      "texts": [
+        {
+          "subtitle": "English",
+          "desc": "Proficiency (C2)"
+        },
+        {
+          "subtitle": "German",
+          "desc": "Mittelstufe (C1)"
+        },
+        {
+          "subtitle": "Greek",
+          "desc": "Native"
+        }
+      ]
+    }
   ]
 }
