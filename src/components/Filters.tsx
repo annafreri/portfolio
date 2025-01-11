@@ -27,7 +27,7 @@ export default function Filters(props: Props) {
 
           const className = cn({
             'transition-all ease-in-out': true,
-            'text-zinc-100 pl-2': filter === currentFilter
+            'text-purple-400 pl-2': filter === currentFilter
           })
 
           return (

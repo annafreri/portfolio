@@ -4,7 +4,7 @@ import aboutTexts from '../data/about.json'
 export const About = () => (
   <div className="">
     <AboutSection title="Work">
-      <div className='flex flex-col w-1/2'>
+      <div className='flex flex-col w-full md:w-1/2'>
         {aboutTexts.work.map((workplace, index) => (
           <div
             key={index}
@@ -44,7 +44,7 @@ export const About = () => (
     </AboutSection>
 
     <AboutSection title="Education">
-      <div className='flex flex-col w-1/2'>
+      <div className='flex flex-col w-full md:w-1/2'>
 
         {aboutTexts.education.map((institution, index) => (
           <div
@@ -67,7 +67,7 @@ export const About = () => (
     </AboutSection>
 
     <AboutSection title="About me">
-      <div className='flex flex-col w-1/2'>
+      <div className='flex flex-col w-full md:w-1/2'>
 
         {aboutTexts.aboutme.map((paragraph, index) => (
           <div
@@ -94,7 +94,7 @@ export const About = () => (
     </AboutSection>
 
     <AboutSection title="Languages">
-      <div className='flex flex-col w-1/2'>
+      <div className='flex flex-col w-full md:w-1/2'>
 
         {aboutTexts.languages.map((language, index) => (
           <div

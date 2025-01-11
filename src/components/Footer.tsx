@@ -5,7 +5,7 @@ interface Props {
 export default function Footer(props: Props) {
   const { onDownload } = props
   return (
-    <div className="pb-24">
+    <div className="">
 
       {/* First contact section */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 border-t border-zinc-700">

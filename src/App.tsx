@@ -11,6 +11,9 @@ import { cn } from './lib/utils'
 import Filters from './components/Filters'
 import { Filter } from './types'
 import AnimatedCursor from 'react-animated-cursor'
+import { motion } from "framer-motion";
+import SectionTitle from './components/SectionTitle'
+
 
 function App() {
 
@@ -23,7 +26,6 @@ function App() {
   const [isOpen, setIsOpen] = useState<boolean>(false)
   const [currentProject, setCurrentProject] = useState<number | null>(null)
   const [currentFilter, setCurrentFilter] = useState<Filter>(Filter.all)
-  const [isHovered, setIsHovered] = useState<boolean | null>(null);
 
   const onDownload = () => {
     const pdfUrl = "Anna_freri_CV.pdf";
@@ -33,14 +35,6 @@ function App() {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-  };
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
   };
 
   const getCurrentProject = () => {
@@ -68,75 +62,106 @@ function App() {
     }
   }, [navItem]);
 
+  const [shouldShowCursor, setShouldShowCursor] = useState(false);
+
+  useEffect(() => {
+    const checkWidth = () => {
+      setShouldShowCursor(window.innerWidth >= 768);
+    };
+    checkWidth();
+    window.addEventListener('resize', checkWidth);
+    return () => window.removeEventListener('resize', checkWidth);
+  }, []);
+
   return (
     <div className='bg-zinc-900 text-zinc-400 min-h-screen'>
 
-      <AnimatedCursor
-        innerSize={isOpen ? 12 : 4}
-        outerSize={48}
-        innerStyle={{
-          mixBlendMode: 'difference',
-          backgroundColor: isOpen ? 'transparent' : 'rgb(211, 211, 211)',
-          backgroundImage: (isOpen && !isHovered) ? 'url("/images/x.svg")' : 'none',
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center'
-        }}
-        outerStyle={{
-          border: '1px solid gray',
-          mixBlendMode: 'difference'
-        }}
-        color='211, 211, 211'
-        outerAlpha={0.1}
-        innerScale={1.0}
-        outerScale={1.4}
-        clickables={[
-          'a',
-          'input[type="text"]',
-          'input[type="email"]',
-          'input[type="number"]',
-          'input[type="submit"]',
-          'input[type="image"]',
-          'label[for]',
-          'select',
-          'textarea',
-          'button',
-          '.link',
-        ]}
-      />
+      {
+        shouldShowCursor && (
+          <AnimatedCursor
+            innerSize={4}
+            outerSize={48}
+            innerStyle={{
+              mixBlendMode: 'difference',
+              backgroundColor: isOpen ? 'transparent' : 'rgb(211, 211, 211)',
+              zIndex: 9999
+            }}
+            outerStyle={{
+              border: '1px solid gray',
+              mixBlendMode: 'difference',
+              zIndex: 9999
+
+            }}
+            color='211, 211, 211'
+            outerAlpha={0.1}
+            innerScale={1.0}
+            outerScale={1.4}
+            clickables={[
+              'a',
+              'input[type="text"]',
+              'input[type="email"]',
+              'input[type="number"]',
+              'input[type="submit"]',
+              'input[type="image"]',
+              'label[for]',
+              'select',
+              'textarea',
+              'button',
+              '.link',
+            ]}
+          />
+        )}
 
       {isOpen && (
         <div
           className='z-50 fixed inset-y-0 right-0 w-[50vw]'
-          onMouseEnter={() => { handleMouseEnter(); console.log('over') }}
-          onMouseLeave={() => { handleMouseLeave(); console.log('out') }}
         >
           <Drawer
             project={getCurrentProject()}
             isOpen={isOpen}
             setIsOpen={setIsOpen}
-
           />
         </div>
       )}
 
+      <Nav
+        setNavItem={setNavItem}
+        setIsOpen={setIsOpen}
+        isOpen={isOpen}
+      />
+
       <div className={containerClassName}>
-        <Nav setNavItem={setNavItem} />
 
-        <section className='mb-16 hidden md:block'>
-          <Header onDownload={onDownload} />
-        </section>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true, amount: 0.1, }}
+        >
+          <section className='mb-16 hidden md:block'>
+            <Header onDownload={onDownload} />
+          </section>
+        </motion.div>
 
-        <section className='w-full md:w-4/5'>
-          <h2 className='text-zinc-400'>
-            Hello! I'm Anna Freri (🧑🏻‍🦲) a multidisciplinary designer & frontend developer. With a ten year experience (🍒) in various disciplines and a focus on digital design, I approach each project with curiosity, playfulness (🧒🏻) and a holistic view (👀) on interaction. This is an archive of work.
-          </h2>
-        </section>
+        <motion.div
+          initial={{ opacity: 0, y: 25, rotate: 0 }}
+          whileInView={{ opacity: 1, y: 0, rotate: 0 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true, amount: 0.1, }}
+        >
+          <section className='w-full md:w-4/5'>
+            <h2 className='text-zinc-400'>
+              Hello! I'm Anna Freri (🧑🏻‍🦲) a multidisciplinary designer & frontend developer. With a ten year experience in various disciplines and a focus on digital design, I approach each project with curiosity, playfulness and a holistic view on interaction. This is an archive of work.
+            </h2>
+          </section>
+        </motion.div>
 
-        <h1 ref={workRef}>Selected Work</h1>
+        <div ref={workRef}>
+          <SectionTitle title='Selected Work' />
+        </div>
+
         <div className='flex flex-row' ref={filterRef}>
           <div className='w-2/5 hidden md:block'>
-
             <div className='sticky top-0 pt-4'>
               <h3>Filter Projects</h3>
               <Filters
@@ -145,13 +170,11 @@ function App() {
                 filterRef={filterRef}
               />
             </div>
-
           </div>
 
           <div
             className='w-full flex flex-col gap-4 pt-4'
           >
-
             {filteredProjects && filteredProjects.map((project) => {
               return (
                 <div>
@@ -175,15 +198,19 @@ function App() {
           </div>
         </div>
 
-        <h1 ref={aboutRef}>
-          Curriculum Vitae
-        </h1>
+        <div ref={aboutRef}>
+          <SectionTitle title='Curriculum Vitae' />
+        </div>
+
         <About />
 
-        <h1 ref={contactRef}>
-          Don't be a stranger
-        </h1>
-        <Footer onDownload={onDownload} />
+        <div ref={contactRef}>
+          <SectionTitle title="Don't be a stranger" />
+        </div>
+
+        <div className='mb-40'>
+          <Footer onDownload={onDownload} />
+        </div>
 
       </div>
     </div>
