@@ -48,12 +48,12 @@ body {
   }
 
   h1 {
-    @apply font-serif text-[15vw] leading-[80%] tracking-[-5px] mb-[0.8em] mt-[0.8em] font-semibold w-4/5 text-zinc-500;
+    @apply font-serif text-[15vw] leading-[80%] tracking-[-5px] mb-[0.8em] mt-[0.8em] font-semibold w-4/5 text-zinc-400;
     font-family: var(--main-font-family);
   }
 
   h2 {
-    @apply font-normal text-[4vw] leading-[105%] tracking-[-0.3px];
+    @apply font-normal text-[4vw] leading-[105%] tracking-[-0.3px]  text-zinc-400;
   }
 
   h3,

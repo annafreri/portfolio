@@ -1,12 +1,9 @@
 {
   "work": [
     {
-      "title": "Bureau Moeilijke Dingen",
+      "company": "Bureau Moeilijke Dingen",
+      "roles": [["Front end developer intern","2024-2025"]],
       "texts": [
-        {
-          "subtitle": "2024-2025",
-          "desc": "Front end developer intern"
-        },
         {
           "subtitle": "What did I do there?",
           "desc": "Working at Bureau Moeilijke Dingen, I combined frontend development using React and TypeScript with UX design principles to create digital products. Through hands-on experience with electronics, I developed a comprehensive understanding of interactive systems – from technical implementation to user experience. This role enhanced my ability to create meaningful digital solutions that bridge technology and design."
@@ -14,20 +11,9 @@
       ]
     },
     {
-      "title": "Soul Creative Agency",
+      "company": "Soul Creative Agency",
+      "roles": [["Digital design Lead", "2021-2023"],["UI&UX designer", "2016-2020"],["Junior Graphic designer", "2014-2015"]],
       "texts": [
-        {
-          "subtitle": "2021-2023",
-          "desc": "Digital design Lead"
-        },
-        {
-          "subtitle": "2016-2020",
-          "desc": "UI&UX designer"
-        },
-        {
-          "subtitle": "2014-2015",
-          "desc": "Junior designer"
-        },
         {
           "subtitle": "What did I do there?",
           "desc": "Throughout the years, in addition to my main focus on UI & UX design, I have been actively involved in a variety of tasks and procedures such as copywriting, naming, graphic design, packaging, storytelling, visual identity design, and project management. This sparked my curiosity and helped me develop a 360-degree understanding of what interaction and communication mean, providing me with a direct overview from the ideation stage to production."
@@ -39,12 +25,9 @@
       ]
     },
     {
-      "title": "KORRES Uni Lab",
+      "company": "KORRES Uni Lab",
+      "roles": [["Student Graphic Designer", "2014"]],
       "texts": [
-        {
-          "subtitle": "2013",
-          "desc": "Graphic Designer"
-        },
         {
           "subtitle": "What did I do there?",
           "desc": "I was handpicked by KORRES to join an all-student team of diverse disciplines. Together, we collaborated to create a product for the KORRES skincare line. This unique opportunity allowed me to contribute my expertise in graphic & packaging design, while also learning from and collaborating with fellow students from various backgrounds."
@@ -54,23 +37,18 @@
   ],
   "education": [
     {
-      "title": "Supsi, CH",
-      "texts": [
-        {
-          "subtitle": "2023-2024",
-          "desc": "Master of Arts in Interaction Design"
-        }
-      ]
-    },
-    {
-      "title": "University of West Attica, GR",
-      "texts": [
-        {
-          "subtitle": "2009-2012",
-          "desc": "Bachelor of Arts in Graphic design & Visual Communication"
-        }
-      ]
-    }
+      "school": "Supsi, CH",
+      "year": "2023-2024",
+      "title": "Master of Arts in Interaction Design"
+      },
+      {
+    
+          "school": "University of West Attica, GR",
+          "year": "2009-2012",
+          "title": "Bachelor of Arts in Graphic design & Visual Communication"
+      }
+      
+    
   ],
   "aboutme": [
     {
@@ -78,7 +56,11 @@
       "texts": [
         {
           "subtitle": "",
-          "desc": "I am currently enrolled in the Master of Interaction Design at SUPSI, CH. Over my ten years of work experience, I've been employed in a small agency where I often found myself juggling various roles and tasks simultaneously. This environment provided me with the freedom to explore different disciplines and crafts, leading me to realize that versatility is what I find truly fulfilling and ultimately rewarding. Above all, I consider myself a maker and problem solver. While tasks and procedures may vary, they all serve the same purpose: telling engaging stories and creating useful and simply great products that users can relate to and be excited about. I firmly believe that understanding the problem and possessing the problem-solving skills required to arrive at a solution are the key elements in designing exceptional experiences and products, regardless of the medium."
+          "desc": "Currently finishing up my Master's in Interaction Design at SUPSI while interning as a frontend developer at Bureau Moeilijke Dingen in Eindhoven. Over my ten years in the design field, I spent most of my time at a boutique agency where I often found myself juggling various roles simultaneously. This environment provided me with the freedom to explore different disciplines and crafts, leading me to realize that versatility is what I find truly fulfilling and ultimately rewarding. I'm particularly drawn to projects that challenge me to think both creatively and systematically."
+        },
+        {
+          "subtitle": "",
+          "desc": "Above all, I consider myself a maker and problem solver. While tasks and tools may vary, they all serve the same purpose: telling engaging stories and creating useful and simply great experiences that users can relate to and be excited about. I firmly believe that understanding the problem deeply and approaching it holistically - whether through design thinking or computational logic - is key to creating exceptional products and experiences, regardless of the medium."
         }
       ]
     }

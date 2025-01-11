@@ -1,7 +1,6 @@
 import {
   Sheet,
   SheetContent,
-  SheetTrigger,
 } from "@/components/ui/sheet"
 
 
@@ -32,22 +31,19 @@ export default function Drawer(props: Props) {
       <Sheet
         open={isOpen}
         onOpenChange={() => setIsOpen(!isOpen)}
-        modal={false}
+        modal={true}
       >
-        <SheetTrigger>Open</SheetTrigger>
         <SheetContent
           onEscapeKeyDown={() => setIsOpen(false)}
           onPointerDownOutside={() => setIsOpen(false)}
+          onOpenAutoFocus={(e) => e.preventDefault()}
         >
-
-
           <div
             className="flex flex-col gap-5"
           >
             <div className="text-zinc-400">
               <h3>{project?.title}</h3>
             </div>
-
             {
               project?.texts && project.texts.map((text) => {
                 const smallTitle = text[0]

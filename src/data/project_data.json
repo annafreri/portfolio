@@ -27,7 +27,7 @@
             "/images/highloft6.jpg",
             "/images/highloft7.jpg"
         ],
-        "categories": ["design"]
+        "categories": ["Design"]
     },
     {
         "id": 2,
@@ -52,7 +52,7 @@
                 "/images/curtain4.jpg",
                 "/images/curtain5.jpg" 
             ],
-        "categories": ["concept", "development"]
+        "categories": ["Concept", "Development"]
     },
 
     {
@@ -82,7 +82,7 @@
                 "/images/moodle6.jpg",
                 "/images/moodle7.png"
             ],
-        "categories": ["concept", "design"]
+        "categories": ["Concept", "Design"]
     },
 
 
@@ -108,7 +108,7 @@
                 "/images/sli3.png", 
                 "/images/sli4.png"
             ],
-        "categories": ["design"]
+        "categories": ["Design"]
     },
 
 
@@ -138,7 +138,7 @@
                 "/images/illu8.jpg",
                 "/images/illu9.jpg"  
             ],
-        "categories": ["concept", "design"]
+        "categories": ["Concept", "Design"]
     },
     {
         "id": 6,
@@ -162,7 +162,7 @@
                 "/images/welead4.png",
                 "/images/welead5.jpg" 
             ],
-        "categories": ["design"]
+        "categories": ["Design"]
     },
     
 
@@ -189,7 +189,7 @@
                 "/images/korea3.jpg", 
                 "/images/korea4.jpg"
             ],
-        "categories": ["concept"]
+        "categories": ["Concept"]
     },
 
     {
@@ -213,7 +213,7 @@
                 "/images/hello2.png",
                 "/images/hello3.png"
             ],
-        "categories": ["design", "development"]
+        "categories": ["Design", "Development"]
     },
 
     {
@@ -241,7 +241,7 @@
                 "/images/codee4.jpg",
                 "/images/codee5.jpg" 
             ],
-            "categories": ["design"]
+            "categories": ["Design"]
     },
 
     {
@@ -268,7 +268,7 @@
                 "/images/pha3.jpg", 
                 "/images/pha4.jpg"
             ],
-        "categories": ["concept", "development"]
+        "categories": ["Concept", "Development"]
     }
 ]
 

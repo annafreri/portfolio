@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction } from "react";
+import { Dispatch, SetStateAction, useEffect, useRef } from "react";
 
 interface Props {
   id: number,
@@ -20,23 +20,33 @@ export default function ProjectPreview(props: Props) {
     id,
     title,
     subtitle,
-    // categories,
     tags,
     image,
     video,
     isOpen,
     setIsOpen,
-    // currentProject,
     setCurrentProject
   } = props;
 
-  return (
-    <div className="flex flex-row gap-4">
+  const videoRef = useRef<HTMLVideoElement>(null);
 
-      <div className="w-1/4">
+  useEffect(() => {
+    if (videoRef.current) {
+      if (isOpen) {
+        videoRef.current.pause();
+      } else {
+        videoRef.current.play();
+      }
+    }
+  }, [isOpen]);
+
+  return (
+    <div className="flex flex-col-reverse md:flex-row gap-4">
+
+      <div className="w-full md:w-1/4">
         <h3 className="text-zinc-400">{title}</h3>
-        <h3 className="text-zinc-600 pb-6">{subtitle}</h3>
-        <div className="flex flex-col gap-2 text-zinc-500">
+        <h3 className="text-zinc-600 pb-2 md:pb-6">{subtitle}</h3>
+        <div className="flex flex-row md:flex-col gap-2 text-zinc-500">
           {tags && tags.map((tag) => {
             return (
               <div className="px-1 py-0.5 rounded-md border border-zinc-800 w-fit uppercase ">
@@ -48,9 +58,8 @@ export default function ProjectPreview(props: Props) {
         </div>
       </div>
 
-
-      <div
-        className="w-3/4"
+      <button
+        className="w-full md:w-3/4 mt-6 md:mt-0"
         onClick={() => { setIsOpen(!isOpen); setCurrentProject(id) }}
       >
         {image !== '' ? (
@@ -62,8 +71,8 @@ export default function ProjectPreview(props: Props) {
           />
         ) : (
           <video
-            // autoPlay={isAnyOpen ? false : true}// Autoplay when isAnyOpen is false
-            // loading="lazy"
+            ref={videoRef}
+            autoPlay
             loop
             muted
             playsInline
@@ -73,7 +82,7 @@ export default function ProjectPreview(props: Props) {
             Your browser does not support the video tag.
           </video>
         )}
-      </div>
+      </button>
 
     </div>
   )
