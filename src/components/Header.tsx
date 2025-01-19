@@ -9,7 +9,7 @@ export default function Header(props: Props) {
   const { timeToDisplay } = useTime()
   return (
     <div className="grid grid-cols-4 gap-4 border-t-1 border-gray-500 text-gray-600">
-      <div>Work Archive 2024</div>
+      <div>Work Archive</div>
       <div>Eindhoven, NL</div>
       <div>{timeToDisplay}</div>
       <div
