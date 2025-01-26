@@ -2,17 +2,35 @@
   "work": [
     {
       "company": "Bureau Moeilijke Dingen",
-      "roles": [["Frontend Developer Intern","2024-2025"]],
+      "roles": [
+        [
+          "Frontend Developer Intern",
+          "2024-2025"
+        ]
+      ],
       "texts": [
         {
           "subtitle": "What did I do there?",
-          "desc": "Working at Bureau Moeilijke Dingen, I combined frontend development using React and TypeScript with UX design principles to create digital products. Through hands-on experience with electronics, I developed a comprehensive understanding of interactive systems – from technical implementation to user experience. This role enhanced my ability to create meaningful digital solutions that bridge technology and design."
+          "desc": "Working at Bureau Moeilijke Dingen, I combined frontend development using React and TypeScript with UX design principles to create digital products. Through hands-on experience with electronics, I developed a comprehensive understanding of interactive systems – from technical implementation to user experience."
         }
       ]
     },
     {
       "company": "Soul Creative Agency",
-      "roles": [["Digital Design Lead", "2021-2023"],["UI&UX designer", "2016-2020"],["Junior Graphic designer", "2014-2015"]],
+      "roles": [
+        [
+          "Digital Design Lead",
+          "2021-2023"
+        ],
+        [
+          "UI&UX designer",
+          "2016-2020"
+        ],
+        [
+          "Junior Graphic designer",
+          "2014-2015"
+        ]
+      ],
       "texts": [
         {
           "subtitle": "What did I do there?",
@@ -26,7 +44,12 @@
     },
     {
       "company": "KORRES Uni Lab",
-      "roles": [["Student Graphic Designer", "2014"]],
+      "roles": [
+        [
+          "Student Graphic Designer",
+          "2014"
+        ]
+      ],
       "texts": [
         {
           "subtitle": "What did I do there?",
@@ -40,15 +63,12 @@
       "school": "Supsi, CH",
       "year": "2023-2024",
       "title": "Master of Arts in Interaction Design"
-      },
-      {
-    
-          "school": "University of West Attica, GR",
-          "year": "2009-2012",
-          "title": "Bachelor of Arts in Graphic design & Visual Communication"
-      }
-      
-    
+    },
+    {
+      "school": "University of West Attica, GR",
+      "year": "2009-2012",
+      "title": "Bachelor of Arts in Graphic design & Visual Communication"
+    }
   ],
   "aboutme": [
     {
