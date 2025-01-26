@@ -12,11 +12,26 @@
         "mainimage": "",
         "mainvideo": "/images/highloft.mp4",
         "texts": [
-            ["The project", "The Highloft, a versatile Athenian venue for photoshoots, meetings, workshops, and private events, sought to create their online presence.  I was commissioned to design a website that captured their unique character - stylish, adaptable, and undeniably impressive."],
-            ["The Approach", "To achieve this, I focused on a user-friendly design that balanced functionality with aesthetics. A seamless booking request system ensured ease of use for securing a date at The Highloft."],
-            ["The Result", "A website that seamlessly blends professional and lifestyle aesthetics. This balance is further enhanced by flawless animations and an intuitive user experience. Ultimately, the website offers a smooth user journey that is both functional and welcoming, providing a glimpse into Athenian stylish living."],
-            ["Credits", "This project was realized during my time at Soul Creative Agency."],
-            ["Awards", "Mindsparkle Mag: Site of the Day, CSS Awards: Site of the Day, Ebge 2022: Merit Award"]
+            [
+                "The project",
+                "The Highloft, a versatile Athenian venue for photoshoots, meetings, workshops, and private events, sought to create their online presence.  I was commissioned to design a website that captured their unique character - stylish, adaptable, and undeniably impressive."
+            ],
+            [
+                "The Approach",
+                "To achieve this, I focused on a user-friendly design that balanced functionality with aesthetics. A seamless booking request system ensured ease of use for securing a date at The Highloft."
+            ],
+            [
+                "The Result",
+                "A website that seamlessly blends professional and lifestyle aesthetics. This balance is further enhanced by flawless animations and an intuitive user experience. Ultimately, the website offers a smooth user journey that is both functional and welcoming, providing a glimpse into Athenian stylish living."
+            ],
+            [
+                "Credits",
+                "This project was realized during my time at Soul Creative Agency."
+            ],
+            [
+                "Awards",
+                "Mindsparkle Mag: Site of the Day, CSS Awards: Site of the Day, Ebge 2022: Merit Award"
+            ]
         ],
         "images": [
             "/images/highloft1.jpg",
@@ -27,34 +42,46 @@
             "/images/highloft6.jpg",
             "/images/highloft7.jpg"
         ],
-        "categories": ["Design"]
+        "categories": [
+            "Design"
+        ]
     },
     {
         "id": 2,
-        "title": "Beyond the curtain",
-        "subtitle": "Playing around with a LED Matrix, Processing, & color theory",
+        "title": "MMXII",
+        "subtitle": "A physical space where digital data become tangible stories we can choose to keep or let fade away.",
         "tags": [
-            "Concept Design",
-            "Coding"
+            "Concept",
+            "Design",
+            "Coding",
+            "Physical Prototype",
+            "Interaction design",
+            "Electronics"
         ],
-        "mainimage": "",
-        "mainvideo": "/images/curtain.mp4",
+        "mainimage": "/images/thesis.jpg",
+        "mainvideo": "",
         "texts": [
-            ["The Project", "Beyond the Curtain is a 32x32 LED matrix art installation showcasing iconic photographic portraits. The images undergo a continual transformation as an algorithm dynamically alters the color of each pixel. This constantly evolving display challenges recognition and perception of the subject."],
-            ["The Process", "By overlaying the matrix with a red transparent screen and a cloudy plastic sheet, the image becomes discernible to the spectator, creating the illusion of a printed picture rather than an indistinguishable grid of alternating colored LEDs."],
-            ["The Result", "This project explores the boundaries between the digital and physical worlds, highlighting the interaction of different materials with intangible digital data."],
-            ["Credits", "This project was created as part of the course 'Programming Interactive Objects' at the Master of Arts in Interaction Design at SUPSI. Team: Anna Freri, Raffaele Amietta. Teacher: Andreas Gysin."]
+            [
+                "The Project",
+                "This project is part of my thesis. More details coming soon."
+            ]
         ],
-        "images": [ 
-                "/images/curtain1.jpg", 
-                "/images/curtain2.jpg", 
-                "/images/curtain3.jpg", 
-                "/images/curtain4.jpg",
-                "/images/curtain5.jpg" 
-            ],
-        "categories": ["Concept", "Development"]
+        "vimeoUrl": "",
+        "images": [
+            "/images/thesis2.jpg",
+            "/images/thesis3.jpg",
+            "/images/thesis4.jpg",
+            "/images/thesis5.png",
+            "/images/thesis6.png",
+            "/images/thesis7.jpg",
+            "/images/thesis8.jpg"
+        ],
+        "categories": [
+            "Concept",
+            "Development",
+            "Design"
+        ]
     },
-
     {
         "id": 3,
         "title": "Moodle",
@@ -68,24 +95,37 @@
         "mainimage": "",
         "mainvideo": "/images/moodle.mp4",
         "texts": [
-        ["The Project", "Imagine an app that uses machine learning to curate your soundtrack based on your mood. Moodle goes beyond playlists, it anticipates your emotions. This project encompassed everything from concept design, branding, design system, UI/UX to designing & animating unique characters"],
-        ["The Approach", "Freshness & boldness define Moodle's visual identity. Exciting character design and animation bring the brand & app to life. Building Moodle from the ground up allowed me to showcase my vision for seamless branding and user experience, from naming to UI&UX design. From concept & naming to final product, Moodle embodies my holistic approach to design."],
-        ["The Technology", "Moodle leverages machine learning technology to create a truly personalized music experience. The app analyzes your emotions through your phone's camera, then utilizes the Spotify API to curate the perfect playlist to match your mood. This innovative approach to music discovery is wrapped in a visually stunning and engaging interface, making Moodle a delight to use."],
-        ["Credits", "This project was created as part of the thesis for my Bachelor Degree at UNIWA. Team: Anna Freri, Konstantina Freri (Application & Website development)."]
-        ],
-        "images": [ 
-                "/images/moodle1.png",
-                "/images/moodle2.png",
-                "/images/moodle3.png",
-                "/images/moodle4.png",
-                "/images/moodle5.png",
-                "/images/moodle6.jpg",
-                "/images/moodle7.png"
+            [
+                "The Project",
+                "Imagine an app that uses machine learning to curate your soundtrack based on your mood. Moodle goes beyond playlists, it anticipates your emotions. This project encompassed everything from concept design, branding, design system, UI/UX to designing & animating unique characters"
             ],
-        "categories": ["Concept", "Design"]
+            [
+                "The Approach",
+                "Freshness & boldness define Moodle's visual identity. Exciting character design and animation bring the brand & app to life. Building Moodle from the ground up allowed me to showcase my vision for seamless branding and user experience, from naming to UI&UX design. From concept & naming to final product, Moodle embodies my holistic approach to design."
+            ],
+            [
+                "The Technology",
+                "Moodle leverages machine learning technology to create a truly personalized music experience. The app analyzes your emotions through your phone's camera, then utilizes the Spotify API to curate the perfect playlist to match your mood. This innovative approach to music discovery is wrapped in a visually stunning and engaging interface, making Moodle a delight to use."
+            ],
+            [
+                "Credits",
+                "This project was created as part of the thesis for my Bachelor Degree at UNIWA. Team: Anna Freri, Konstantina Freri (Application & Website development)."
+            ]
+        ],
+        "images": [
+            "/images/moodle1.png",
+            "/images/moodle2.png",
+            "/images/moodle3.png",
+            "/images/moodle4.png",
+            "/images/moodle5.png",
+            "/images/moodle6.jpg",
+            "/images/moodle7.png"
+        ],
+        "categories": [
+            "Concept",
+            "Design"
+        ]
     },
-
-
     {
         "id": 4,
         "title": "Space Leasing International",
@@ -97,21 +137,33 @@
         "mainimage": "",
         "mainvideo": "/images/sli.mp4",
         "texts": [
-        ["The Project", "Website design for Space Leasing International (SLI), an aerospace subsidiary of Libra Group. SLI specializes in owning and leasing critical assets in the space industry, with a vision to accelerate its growth and captivate humanity with its boundless potential."],
-        ["The Approach", "My approach focused on designing a bold and futuristic website, bringing the vision of the branding team to the digital realm. I prioritized a user-friendly interface and utilized bold typography to highlight SLI's commitment to innovation and staying ahead of the curve in the aerospace industry."],
-        ["The Result", "The result is a sleek and dynamic website that effectively communicates SLI's dedication to transforming the space economy. Through strategic design choices and captivating visuals hand crafted by the branding team at Soul Creative Agency, the website offers visitors a glimpse into SLI's cutting-edge offerings and its role in shaping the future of space exploration."],
-        ["Credits", "This project was realized during my time at Soul Creative Agency."]
-        ],
-        "images": [ 
-                "/images/sli1.png", 
-                "/images/sli2.png", 
-                "/images/sli3.png", 
-                "/images/sli4.png"
+            [
+                "The Project",
+                "Website design for Space Leasing International (SLI), an aerospace subsidiary of Libra Group. SLI specializes in owning and leasing critical assets in the space industry, with a vision to accelerate its growth and captivate humanity with its boundless potential."
             ],
-        "categories": ["Design"]
+            [
+                "The Approach",
+                "My approach focused on designing a bold and futuristic website, bringing the vision of the branding team to the digital realm. I prioritized a user-friendly interface and utilized bold typography to highlight SLI's commitment to innovation and staying ahead of the curve in the aerospace industry."
+            ],
+            [
+                "The Result",
+                "The result is a sleek and dynamic website that effectively communicates SLI's dedication to transforming the space economy. Through strategic design choices and captivating visuals hand crafted by the branding team at Soul Creative Agency, the website offers visitors a glimpse into SLI's cutting-edge offerings and its role in shaping the future of space exploration."
+            ],
+            [
+                "Credits",
+                "This project was realized during my time at Soul Creative Agency."
+            ]
+        ],
+        "images": [
+            "/images/sli1.png",
+            "/images/sli2.png",
+            "/images/sli3.png",
+            "/images/sli4.png"
+        ],
+        "categories": [
+            "Design"
+        ]
     },
-
-
     {
         "id": 5,
         "title": "Illustrations",
@@ -123,22 +175,34 @@
         "mainimage": "/images/illustrations_.png",
         "mainvideo": "",
         "texts": [
-        ["The Project", "This is a collection of illustration work, ranging from personal doodles to commercial and exhibition commissions."],
-        ["The Approach", "My illustration approach is playful and always curious, ranging from using strict geometric shapes to hand-drawn aesthetics."],
-        ["The Result", "A collection that showcases my ability to adapt to various styles and requirements, catering to both personal expression and professional demands."]
-        ],
-        "images": [ 
-                "/images/illu1.png", 
-                "/images/illu2.png", 
-                "/images/illu3.jpg", 
-                "/images/illu4.png",
-                "/images/illu5.jpg",
-                "/images/illu6.jpg",
-                "/images/illu7.gif",
-                "/images/illu8.jpg",
-                "/images/illu9.jpg"  
+            [
+                "The Project",
+                "This is a collection of illustration work, ranging from personal doodles to commercial and exhibition commissions."
             ],
-        "categories": ["Concept", "Design"]
+            [
+                "The Approach",
+                "My illustration approach is playful and always curious, ranging from using strict geometric shapes to hand-drawn aesthetics."
+            ],
+            [
+                "The Result",
+                "A collection that showcases my ability to adapt to various styles and requirements, catering to both personal expression and professional demands."
+            ]
+        ],
+        "images": [
+            "/images/illu1.png",
+            "/images/illu2.png",
+            "/images/illu3.jpg",
+            "/images/illu4.png",
+            "/images/illu5.jpg",
+            "/images/illu6.jpg",
+            "/images/illu7.gif",
+            "/images/illu8.jpg",
+            "/images/illu9.jpg"
+        ],
+        "categories": [
+            "Concept",
+            "Design"
+        ]
     },
     {
         "id": 6,
@@ -146,26 +210,38 @@
         "subtitle": "Designing a website for the future of tech",
         "tags": [
             "UI / UX design"
-            
         ],
         "mainimage": "",
         "mainvideo": "/images/welead.mp4",
         "texts": [
-        ["The Project", "We Lead, a visionary non-profit established in 2023 by Libra Philanthropies, is making waves in Greece's thriving tech sector: empowering all women to claim their leadership potential."],
-        ["The Approach", "We Lead's visual identity, crafted by Soul Creative Agency, is a dynamic pixel grid, a symbol of limitless potential. To seamlessly translate this language into the digital world, I designed a website where the grid comes alive. It morphs to embrace text, images, and website modules, creating captivating page transitions."],
-        ["The Result", "The We Lead website is a reflection of the organization itself – bold, inclusive, and bursting with energy. The exciting design system & seamless experience empowers WE LEAD to connect with their audience and ignite the leadership spark in all femininities."],
-        ["Credits", "This project was realized during my time at Soul Creative Agency."]        ],
-        "images": [ 
-                "/images/welead1.jpg", 
-                "/images/welead2.png", 
-                "/images/welead3.jpg", 
-                "/images/welead4.png",
-                "/images/welead5.jpg" 
+            [
+                "The Project",
+                "We Lead, a visionary non-profit established in 2023 by Libra Philanthropies, is making waves in Greece's thriving tech sector: empowering all women to claim their leadership potential."
             ],
-        "categories": ["Design"]
+            [
+                "The Approach",
+                "We Lead's visual identity, crafted by Soul Creative Agency, is a dynamic pixel grid, a symbol of limitless potential. To seamlessly translate this language into the digital world, I designed a website where the grid comes alive. It morphs to embrace text, images, and website modules, creating captivating page transitions."
+            ],
+            [
+                "The Result",
+                "The We Lead website is a reflection of the organization itself – bold, inclusive, and bursting with energy. The exciting design system & seamless experience empowers WE LEAD to connect with their audience and ignite the leadership spark in all femininities."
+            ],
+            [
+                "Credits",
+                "This project was realized during my time at Soul Creative Agency."
+            ]
+        ],
+        "images": [
+            "/images/welead1.jpg",
+            "/images/welead2.png",
+            "/images/welead3.jpg",
+            "/images/welead4.png",
+            "/images/welead5.jpg"
+        ],
+        "categories": [
+            "Design"
+        ]
     },
-    
-
     {
         "id": 7,
         "title": "Through the looking glass",
@@ -178,20 +254,33 @@
         "mainimage": "",
         "mainvideo": "/images/korea.mp4",
         "texts": [
-        ["The Project", "Through the looking glass is an art installation that transcends physical and political boundaries. This project aims to connect unlikely locations – North and South Korea – through a shared experience designed to foster empathy and understanding between two individuals who would otherwise have no means of communication."],
-        ["The Approach", "Inspired by the division of the Korean peninsula, we challenged the original brief (which was to work with a single 15x15x15 box) by symbolically splitting a box in two, mirroring the historical divide. The South Korea box, crafted from transparent materials, represents the relatively open communication within the society. Contrastingly, the North Korea box utilizes opaque materials, symbolizing the controlled and suppressed communication channels."],
-        ["The Result", "Carefully crafted messages, printed on the boxes, guide users towards understanding, bridging the communication gap despite the physical separation. Interactive elements, like synchronized lights triggered by proximity sensors, create a sense of connection. As users approach their respective boxes, the lights gradually brighten, a visual cue that someone is present on the other side. A touch sensor within each box allows users to initiate a synchronized action – a gentle pink glow bathes both boxes simultaneously, a powerful symbol of connection across the divide. Limited printer resources necessitated meticulous testing during the development phase, but the result is a testament to the power of shared experience in fostering empathy and understanding, even in the face of seemingly insurmountable barriers."],
-        ["Credits", "This project was created as part of the course 'Creating Tangible Interfaces' at the Master of Arts in Interaction Design at SUPSI. Team: Anna Freri, Ka Young Lee, Claudia Neo. Teacher: Ubi De Feo."]
-        ],
-        "images": [ 
-                "/images/korea1.jpg", 
-                "/images/korea2.jpg", 
-                "/images/korea3.jpg", 
-                "/images/korea4.jpg"
+            [
+                "The Project",
+                "Through the looking glass is an art installation that transcends physical and political boundaries. This project aims to connect unlikely locations – North and South Korea – through a shared experience designed to foster empathy and understanding between two individuals who would otherwise have no means of communication."
             ],
-        "categories": ["Concept"]
+            [
+                "The Approach",
+                "Inspired by the division of the Korean peninsula, we challenged the original brief (which was to work with a single 15x15x15 box) by symbolically splitting a box in two, mirroring the historical divide. The South Korea box, crafted from transparent materials, represents the relatively open communication within the society. Contrastingly, the North Korea box utilizes opaque materials, symbolizing the controlled and suppressed communication channels."
+            ],
+            [
+                "The Result",
+                "Carefully crafted messages, printed on the boxes, guide users towards understanding, bridging the communication gap despite the physical separation. Interactive elements, like synchronized lights triggered by proximity sensors, create a sense of connection. As users approach their respective boxes, the lights gradually brighten, a visual cue that someone is present on the other side. A touch sensor within each box allows users to initiate a synchronized action – a gentle pink glow bathes both boxes simultaneously, a powerful symbol of connection across the divide. Limited printer resources necessitated meticulous testing during the development phase, but the result is a testament to the power of shared experience in fostering empathy and understanding, even in the face of seemingly insurmountable barriers."
+            ],
+            [
+                "Credits",
+                "This project was created as part of the course 'Creating Tangible Interfaces' at the Master of Arts in Interaction Design at SUPSI. Team: Anna Freri, Ka Young Lee, Claudia Neo. Teacher: Ubi De Feo."
+            ]
+        ],
+        "images": [
+            "/images/korea1.jpg",
+            "/images/korea2.jpg",
+            "/images/korea3.jpg",
+            "/images/korea4.jpg"
+        ],
+        "categories": [
+            "Concept"
+        ]
     },
-
     {
         "id": 8,
         "title": "Hello friends!",
@@ -204,18 +293,29 @@
         "mainimage": "",
         "mainvideo": "/images/hello.mp4",
         "texts": [
-        ["The Project", "After years of designing websites, I just had to peek behind the curtain and learn how it all works. So, here we are :)"],
-        ["The Process", "This website is inspired by and dedicated to my favorite people, and the importance of communication and closeness despite living in different parts of the world."],
-        ["The Result", "This marks my very first self-developed website. I experimented with React.js and the openWeather API to bring it to life."]
-        ],
-        "images": [ 
-                "/images/hello1.png",
-                "/images/hello2.png",
-                "/images/hello3.png"
+            [
+                "The Project",
+                "After years of designing websites, I just had to peek behind the curtain and learn how it all works. So, here we are :)"
             ],
-        "categories": ["Design", "Development"]
+            [
+                "The Process",
+                "This website is inspired by and dedicated to my favorite people, and the importance of communication and closeness despite living in different parts of the world."
+            ],
+            [
+                "The Result",
+                "This marks my very first self-developed website. I experimented with React.js and the openWeather API to bring it to life."
+            ]
+        ],
+        "images": [
+            "/images/hello1.png",
+            "/images/hello2.png",
+            "/images/hello3.png"
+        ],
+        "categories": [
+            "Design",
+            "Development"
+        ]
     },
-
     {
         "id": 9,
         "title": "Codee",
@@ -229,21 +329,35 @@
         "mainimage": "",
         "mainvideo": "/images/codee.mp4",
         "texts": [
-        ["The Project", "Machine learning meets playtime! To challenge the brief, which was to design a new unlocking mechanism, we created Codee: an unlocking system that uses different brain teasers every day instead of a regular password."],
-        ["The Approach", "Codee tackles screen time abuse by introducing a fun challenge before providing Wi-Fi access. We aimed for Codee to have a playful and child-friendly look and feel, along with an intuitive interface. I designed the object in Fusion 360 and then developed a prototype using laser cutting and 3D printing."],
-        ["The Result", "Codee utilizes machine learning, specifically class recognition via camera, to recognize the correct combination. Developed with Google's Teachable Machine, Codee lives up to its name – both in its playful purpose and its kid-friendly design."],
-        ["Credits", "This project was created as part of the course 'Machine Learning for Designers' at the Master of Arts in Interaction Design at SUPSI. Team: Anna Freri, Dajana Seefluth, Kristina Greco Teacher: Matteo Loglio."]        ],
-        "video": "/images/codee_fusion.mp4", 
-        "images": [ 
-                "/images/codee1.jpg", 
-                "/images/codee2.jpg", 
-                "/images/codee3.jpg", 
-                "/images/codee4.jpg",
-                "/images/codee5.jpg" 
+            [
+                "The Project",
+                "Machine learning meets playtime! To challenge the brief, which was to design a new unlocking mechanism, we created Codee: an unlocking system that uses different brain teasers every day instead of a regular password."
             ],
-            "categories": ["Design"]
+            [
+                "The Approach",
+                "Codee tackles screen time abuse by introducing a fun challenge before providing Wi-Fi access. We aimed for Codee to have a playful and child-friendly look and feel, along with an intuitive interface. I designed the object in Fusion 360 and then developed a prototype using laser cutting and 3D printing."
+            ],
+            [
+                "The Result",
+                "Codee utilizes machine learning, specifically class recognition via camera, to recognize the correct combination. Developed with Google's Teachable Machine, Codee lives up to its name – both in its playful purpose and its kid-friendly design."
+            ],
+            [
+                "Credits",
+                "This project was created as part of the course 'Machine Learning for Designers' at the Master of Arts in Interaction Design at SUPSI. Team: Anna Freri, Dajana Seefluth, Kristina Greco Teacher: Matteo Loglio."
+            ]
+        ],
+        "video": "/images/codee_fusion.mp4",
+        "images": [
+            "/images/codee1.jpg",
+            "/images/codee2.jpg",
+            "/images/codee3.jpg",
+            "/images/codee4.jpg",
+            "/images/codee5.jpg"
+        ],
+        "categories": [
+            "Design"
+        ]
     },
-
     {
         "id": 10,
         "title": "Post Humanism Archive",
@@ -256,22 +370,73 @@
         "mainimage": "",
         "mainvideo": "/images/pha.mp4",
         "texts": [
-        ["The Project", "In the digital era, our identity is shaped or even confirmed through an endless stream of images. For this project, we decided to explore the concept of non-human photography – images created by machines such as satellite photography, CCTV cams, or trap cams. These non-human photographs capture moments often overlooked, presenting the most sincere archive of modern humanity, free from human viewpoint bias."],
-        ["The Process", "We sourced non-human photography from various datasets, including satellite imagery and motion-activated cameras. Using Python, we extracted key metadata from each photo and experimented with animation techniques to display them in a composition with archive aesthetics, playing around with P5.js, vanilla JavaScript, and React.js."],
-        ["The Result", "The installation immerses visitors in a dense grid of non-human imagery, constantly evolving and updating. We utilized a mobile phone as a secondary interface, empowering visitors to adjust the grid size of the images in real-time or switch to metadata view. An immersive sound environment, inspired by Ryoji Ikeda's work, adds another layer to the installation, creating a fully immersive experience. This additional sensory dimension aims to deepen the understanding of our concept, portraying a computational entity that captures, collects, and analyzes data about humanity through calculations and processes partially hidden from human observation. Through this lens, viewers perceive the grid from the perspective of the machine, offering insight into how it interprets and attempts to comprehend the complexities of human existence through the imagery it generates."],
-        ["Credits", "This project was created as part of the course 'Designing Interactive Installations' at the Master of Arts in Interaction Design at SUPSI. Team: Anna Freri, Raffaele Amietta, Marco Luraschi. Teacher: Leonardo Angelucci."]
-        ],
-        "vimeoUrl" :"https://player.vimeo.com/video/923675844?h=99fd5a3a80",
-        "images": [ 
-                "/images/pha1.jpg", 
-                "/images/pha2.jpg", 
-                "/images/pha3.jpg", 
-                "/images/pha4.jpg"
+            [
+                "The Project",
+                "In the digital era, our identity is shaped or even confirmed through an endless stream of images. For this project, we decided to explore the concept of non-human photography – images created by machines such as satellite photography, CCTV cams, or trap cams. These non-human photographs capture moments often overlooked, presenting the most sincere archive of modern humanity, free from human viewpoint bias."
             ],
-        "categories": ["Concept", "Development"]
+            [
+                "The Process",
+                "We sourced non-human photography from various datasets, including satellite imagery and motion-activated cameras. Using Python, we extracted key metadata from each photo and experimented with animation techniques to display them in a composition with archive aesthetics, playing around with P5.js, vanilla JavaScript, and React.js."
+            ],
+            [
+                "The Result",
+                "The installation immerses visitors in a dense grid of non-human imagery, constantly evolving and updating. We utilized a mobile phone as a secondary interface, empowering visitors to adjust the grid size of the images in real-time or switch to metadata view. An immersive sound environment, inspired by Ryoji Ikeda's work, adds another layer to the installation, creating a fully immersive experience. This additional sensory dimension aims to deepen the understanding of our concept, portraying a computational entity that captures, collects, and analyzes data about humanity through calculations and processes partially hidden from human observation. Through this lens, viewers perceive the grid from the perspective of the machine, offering insight into how it interprets and attempts to comprehend the complexities of human existence through the imagery it generates."
+            ],
+            [
+                "Credits",
+                "This project was created as part of the course 'Designing Interactive Installations' at the Master of Arts in Interaction Design at SUPSI. Team: Anna Freri, Raffaele Amietta, Marco Luraschi. Teacher: Leonardo Angelucci."
+            ]
+        ],
+        "vimeoUrl": "https://player.vimeo.com/video/923675844?h=99fd5a3a80",
+        "images": [
+            "/images/pha1.jpg",
+            "/images/pha2.jpg",
+            "/images/pha3.jpg",
+            "/images/pha4.jpg"
+        ],
+        "categories": [
+            "Concept",
+            "Development"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Beyond the curtain",
+        "subtitle": "Playing around with a LED Matrix, Processing, & color theory",
+        "tags": [
+            "Concept Design",
+            "Coding"
+        ],
+        "mainimage": "",
+        "mainvideo": "/images/curtain.mp4",
+        "texts": [
+            [
+                "The Project",
+                "Beyond the Curtain is a 32x32 LED matrix art installation showcasing iconic photographic portraits. The images undergo a continual transformation as an algorithm dynamically alters the color of each pixel. This constantly evolving display challenges recognition and perception of the subject."
+            ],
+            [
+                "The Process",
+                "By overlaying the matrix with a red transparent screen and a cloudy plastic sheet, the image becomes discernible to the spectator, creating the illusion of a printed picture rather than an indistinguishable grid of alternating colored LEDs."
+            ],
+            [
+                "The Result",
+                "This project explores the boundaries between the digital and physical worlds, highlighting the interaction of different materials with intangible digital data."
+            ],
+            [
+                "Credits",
+                "This project was created as part of the course 'Programming Interactive Objects' at the Master of Arts in Interaction Design at SUPSI. Team: Anna Freri, Raffaele Amietta. Teacher: Andreas Gysin."
+            ]
+        ],
+        "images": [
+            "/images/curtain1.jpg",
+            "/images/curtain2.jpg",
+            "/images/curtain3.jpg",
+            "/images/curtain4.jpg",
+            "/images/curtain5.jpg"
+        ],
+        "categories": [
+            "Concept",
+            "Development"
+        ]
     }
 ]
-
-
-
-
