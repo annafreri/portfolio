@@ -41,7 +41,8 @@ function App() {
     return ProjectData.find((project) => project.id === currentProject);
   }
 
-  const filteredProjects = currentFilter === Filter.all ? ProjectData : ProjectData.filter(project => project.categories.includes(currentFilter))
+  const projectsToDisplay = ProjectData.filter(project => project.display)
+  const filteredProjects = currentFilter === Filter.all ? projectsToDisplay : projectsToDisplay.filter(project => project.categories.includes(currentFilter))
 
   const containerClassName = cn({
     'p-6 transition-all ease-in-out duration-300': true,

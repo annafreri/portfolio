@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "display": false,
         "title": "The Highloft",
         "subtitle": "Presentation website for the coolest venue in Athens",
         "tags": [
@@ -49,6 +50,7 @@
     {
         "id": 2,
         "title": "MMXII",
+        "display": true,
         "subtitle": "A physical space where digital data become tangible stories we can choose to keep or let fade away.",
         "tags": [
             "Concept",
@@ -85,6 +87,7 @@
     {
         "id": 3,
         "title": "Moodle",
+        "display": true,
         "subtitle": "Imagining & designing a brand from A to Z",
         "tags": [
             "Concept Design",
@@ -129,6 +132,7 @@
     {
         "id": 4,
         "title": "Space Leasing International",
+        "display": false,
         "subtitle": "Designing for the space economy",
         "tags": [
             "UI / UX",
@@ -167,6 +171,7 @@
     {
         "id": 5,
         "title": "Illustrations",
+        "display": true,
         "subtitle": "A collection of work",
         "tags": [
             "Concept",
@@ -207,6 +212,7 @@
     {
         "id": 6,
         "title": "We Lead",
+        "display": false,
         "subtitle": "Designing a website for the future of tech",
         "tags": [
             "UI / UX design"
@@ -245,6 +251,7 @@
     {
         "id": 7,
         "title": "Through the looking glass",
+        "display": true,
         "subtitle": "Connecting two unlikely locations with a thermal printer & Arduino",
         "tags": [
             "Concept Design",
@@ -284,6 +291,7 @@
     {
         "id": 8,
         "title": "Hello friends!",
+        "display": true,
         "subtitle": "Learning react.js and missing my friends",
         "tags": [
             "Illustration",
@@ -319,6 +327,7 @@
     {
         "id": 9,
         "title": "Codee",
+        "display": true,
         "subtitle": "Product concept & prototype to reduce screentime",
         "tags": [
             "Concept",
@@ -361,6 +370,7 @@
     {
         "id": 10,
         "title": "Post Humanism Archive",
+        "display": true,
         "subtitle": "Exploring the most sincere archive of modern humanity with Javascript",
         "tags": [
             "Concept",
@@ -402,6 +412,7 @@
     {
         "id": 11,
         "title": "Beyond the curtain",
+        "display": true,
         "subtitle": "Playing around with a LED Matrix, Processing, & color theory",
         "tags": [
             "Concept Design",
